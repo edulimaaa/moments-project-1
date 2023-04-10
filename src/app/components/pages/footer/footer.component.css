@@ -1,0 +1,16 @@
+footer {
+  text-align: center;
+  border-top: 1px solid #ff91c1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 3em 0;
+}
+
+footer h3 {
+  margin-bottom: 1.5em;
+}
+
+span {
+  color: #ff91c1;
+}

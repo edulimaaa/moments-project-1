@@ -1,0 +1,105 @@
+.moment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 42%;
+  margin: 2em auto;
+}
+
+img {
+  width: 35em;
+  margin: 1em 0 2em 0;
+}
+
+.about-moment p {
+  margin: 1.2em 0;
+}
+
+.actions {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  background-color: #eeeeee;
+  padding: 2em;
+}
+
+.actions h3 {
+  margin-bottom: 2em;
+}
+
+.comments-count,
+.form-container {
+  margin-top: 2.5em;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.form-container input,
+textarea {
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.form-container label {
+  text-align: left;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: 0.3em;
+}
+
+input[type="submit"] {
+  color: #54768a;
+  background-color: #d4e8ff;
+  border: 2px solid transparent;
+  width: 6.5em;
+  padding: 0.7em;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+input[type="submit"]:hover {
+  color: #ff91c1;
+  border-color: #ff91c1;
+  background-color: transparent;
+}
+
+.noComments {
+  margin-top: 2em;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  border-bottom: 1px solid;
+  height: 3em auto;
+  margin-top: 1em;
+}
+
+.user-container p {
+  margin-bottom: 0.9em;
+}
+
+.comments {
+  width: 100%;
+}
+
+.user-image {
+  width: 2.2em;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-comment {
+  width: 27em;
+  text-align: justify;
+}

@@ -1,0 +1,12 @@
+<div>
+  <h1>
+    Editando o momento <span>{{ moment.title }}</span
+    >!
+  </h1>
+  <app-moment-form
+    [btnText]="btnEdit"
+    link="/moments/{{ moment.id }}"
+    (onSubmit)="editHandler($event)"
+    [momentData]="moment"
+  ></app-moment-form>
+</div>

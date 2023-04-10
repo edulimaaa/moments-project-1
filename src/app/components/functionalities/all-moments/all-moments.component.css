@@ -1,0 +1,29 @@
+img {
+  width: 23em;
+}
+
+.container {
+  margin: 3em 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.5em;
+}
+
+h3,
+p,
+a {
+  margin-bottom: 1em;
+}
+
+a {
+  padding: 0.2em 0.8em;
+}
+
+a:hover {
+  background-color: #d4e8ff;
+}
+
+.no-moments {
+  margin-top: 5em;
+}

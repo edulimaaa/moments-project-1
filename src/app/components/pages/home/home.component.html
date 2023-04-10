@@ -1,0 +1,14 @@
+<div class="home-container">
+  <h1>Veja o que estão compartilhando</h1>
+  <div class="search-container">
+    <form>
+      <fa-icon [icon]="faSearch"></fa-icon>
+      <input
+        type="text"
+        placeholder="Ou busque por um momento..."
+        (input)="moments.search($event)"
+      />
+    </form>
+  </div>
+  <app-all-moments #moments></app-all-moments>
+</div>
